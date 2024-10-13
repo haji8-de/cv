@@ -61,10 +61,10 @@ module.exports = {
       ],
     },
     {
-      company: 'LG전자',
+      company: 'LG전자-파트너쉽(와이드티앤에스)',
       location: 'Seoul',
       period: 'Aug 2024 - Present',
-      contents: `Thinq 개인화 서비스 데이터 담당`,
+      contents: `Thinq 개인화 서비스 데이터 책임 연구원`,
       detail: [
         'LG전자 개인화서비스팀',
       ],
