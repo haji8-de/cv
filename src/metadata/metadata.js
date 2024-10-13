@@ -62,6 +62,26 @@ module.exports = {
       ],
     },
     {
+      company: 'LG전자,
+      location: 'Seoul',
+      period: 'Aug 2024 - Present',
+      contents: `Thinq 개인화 서비스 데이터 담당`,
+      detail: [
+        'LG전자 개인화서비스팀',
+      ],
+    },
+    {
+      company: '한국폴리텍VII대학,
+      location: 'Changwon, Gyeongnam',
+      period: 'mar 2024 - Present',
+      contents: `시간 강사`,
+      detail: [
+        '컴퓨터 소프트웨어 개발 강의',
+        'C#을 활용한 windows AI 서비스 개발 과목 강의',
+        'JAVA 전자정부 프레임워크 기반 프로젝트 개발 강의',
+      ],
+    },
+    {
       company: 'Korea Data Space',
       location: 'Gangnam',
       title: 'Data Enginner',
