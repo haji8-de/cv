@@ -70,7 +70,7 @@ module.exports = {
       ],
     },
     {
-      company: '한국폴리텍VII대학,
+      company: '한국폴리텍VII대학',
       location: 'Changwon, Gyeongnam',
       period: 'mar 2024 - Present',
       contents: `시간 강사`,
