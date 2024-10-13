@@ -61,7 +61,7 @@ module.exports = {
       ],
     },
     {
-      company: 'LG전자,
+      company: 'LG전자',
       location: 'Seoul',
       period: 'Aug 2024 - Present',
       contents: `Thinq 개인화 서비스 데이터 담당`,
