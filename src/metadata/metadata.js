@@ -57,8 +57,7 @@ module.exports = {
       detail: [
         'LG - ElasticSearch 1.4 data export batch',
         'react hospital dashboard 구현',
-        'react 교육 및 개발자 영입',
-        '정부 지원 사업 계획서 작성 - 하우 유어 비자 (하유비)'
+        '사업 - 하우 유어 비자 (외국인 채용 커뮤니티 개발)'
       ],
     },
     {
