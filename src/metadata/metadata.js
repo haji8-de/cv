@@ -4,7 +4,7 @@ module.exports = {
   title: 'Data Engineer',
   lang:'kor',
   facts: {
-    Residence: 'Jinju, South Korea',
+    Residence: 'Seoul, South Korea',
     LinkedIn: '<a href="http://www.linkedin.com/in/haji8"><i class="fab fa-linkedin fact-icon"></i> haji8 </a>',
     GitHub: '<a href="https://github.com/haji8-de"><i class="fab fa-github fact-icon"></i> haji8-de </a>',
     Email: '<a href="mailto:gwd7454@gmail.com">gwd7454@gmail.com</a>',
