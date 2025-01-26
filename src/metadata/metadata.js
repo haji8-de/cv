@@ -55,29 +55,30 @@ module.exports = {
       period: 'Sep 2022 - Present',
       contents: `자체 소프트웨어 개발 및 외주`,
       detail: [
-        'LG - ElasticSearch 1.4 data export batch',
-        'react hospital dashboard 구현',
-        '사업 - 하우 유어 비자 (외국인 채용 커뮤니티 개발)'
+        'LG - 보안 분석 체계 고도화 및 데이터 마이그레이션 with ElasticSearch 1.4',
+        '경남대 - react hospital dashboard 구현',
+        '클라비 - 빅데이터 플랫폼 재구축 및 개발 DBA',
+        '사업 - 하우 유어 비자 (외국인 커뮤니티 및 취업정보 사이트 개발)'
       ],
     },
     {
-      company: 'LG전자-파트너쉽(와이드티앤에스)',
-      location: 'Seoul',
+      company: 'LG전자-외주업체(와이드티앤에스)',
+      location: 'Seoul',
       period: 'Aug 2024 - Present',
       contents: `Thinq 개인화 서비스 데이터 책임 연구원`,
       detail: [
-        'LG전자 개인화서비스팀',
+        'LG전자 개인화서비스팀 데이터 파이프라인 구축 및 관리',
       ],
     },
     {
       company: '한국폴리텍VII대학',
-      location: 'Changwon, Gyeongnam',
+      location: 'Changwon, Gyeongnam',
       period: 'mar 2024 - Present',
       contents: `시간 강사`,
       detail: [
-        '컴퓨터 소프트웨어 개발 강의',
-        'C#을 활용한 windows AI 서비스 개발 과목 강의',
-        'JAVA 전자정부 프레임워크 기반 프로젝트 개발 강의',
+        '컴퓨터 소프트웨어 개발 강의',
+        'C#을 활용한 windows AI 서비스 개발 과목 강의',
+        'JAVA 전자정부 프레임워크 기반 프로젝트 개발 강의',
       ],
     },
     {
