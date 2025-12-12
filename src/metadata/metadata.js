@@ -12,27 +12,27 @@ module.exports = {
     Portfolio: '<a href="https://haji8-de.github.io/portfolio/"> Portfolio </a>',
   },
   skills: [
-    ['python', '+++'],
-    ['Javascript', '++'],
-    ['ElasticSearch', '+++'],
-    ['AWS', '++'],
-    ['Firehose', '+++'],
+    ['python', 100],
+    ['Javascript', 80],
+    ['ElasticSearch', 100],
+    ['AWS', 60],
+    ['Firehose', 100],
     
-    ['flask', '++'],
-    ['React', '+'],
-    ['graphql', '++'],
-    ['GCP', '+'],
-    ['Athena', '+++'],
+    ['flask', 60],
+    ['React', 30],
+    ['graphql', 60],
+    ['GCP', 30],
+    ['Athena', 100],
     
-    ['Hadoop', '++'],
-    ['hive', '++'],
-    ['Mysql', '+++'],
-    ['MongoDB', '++'],
-    ['postgrsql', '++'],
+    ['Hadoop', 50],
+    ['hive', 50],
+    ['Mysql', 80],
+    ['MongoDB', 50],
+    ['postgrsql', 50],
     
-    ['Kafka', '++'],
-    ['airflow', '++'],
-    ['pyflink', '++']
+    ['Kafka', 60],
+    ['airflow', 60],
+    ['pyflink', 60]
     
     
   ],
