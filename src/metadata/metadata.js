@@ -53,7 +53,7 @@ module.exports = {
       company: 'LG전자-외주업체(와이드티앤에스)',
       location: 'Seoul',
       period: 'Aug 2024 - Present',
-      contents: `Thinq 개인화 서비스 데이터 책임 연구원`,
+      contents: `Thinq 개인화 서비스 데이터 책임 연구원`,
       detail: [
         'LG전자 개인화서비스팀 데이터 파이프라인 구축 및 관리',
       ],
@@ -62,7 +62,7 @@ module.exports = {
       company: '한국폴리텍VII대학',
       location: 'Changwon, Gyeongnam',
       period: 'mar 2024 - Present',
-      contents: `시간 강사`,
+      contents: `시간 강사`,
       detail: [
         '컴퓨터 소프트웨어 개발 강의',
         'C#을 활용한 windows AI 서비스 개발 과목 강의',
