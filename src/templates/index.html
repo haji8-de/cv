@@ -97,7 +97,9 @@
                 <h3 class="fs-4 fw-normal">{{ title }}</h3>
 
                 <div>{{{markdown contents }}}</div>
-                <div>{{{markdown detail }}}</div>
+                {{#each detail }}
+                <li>{{ this }}</li>
+                {{/each}}
 
                 <p>
                     {{#each skills }}
