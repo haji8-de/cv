@@ -87,13 +87,16 @@
         <h2 class="mb-4">Professional Experience</h2>
         {{#each positions}}
         <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
+            
             <div class="col-md-2 pt-1">
                 {{ period }}
             </div>
             <div class="col-md-10">
+                <h3>{{ company }}</h3>
                 <h3 class="fs-4 fw-normal">{{ title }}</h3>
 
                 <div>{{{markdown contents }}}</div>
+                <div>{{{markdown detail }}}</div>
 
                 <p>
                     {{#each skills }}
@@ -107,7 +110,12 @@
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <h2 class="mb-4">Education</h2>
-        <div>King Edward VI Grammar School in Stratford-upon-Avon [1571 - 1578]</div>
+        <ul>
+          {{#each education}}
+            <i class="fab {{this.icon}}"></i>
+            {{ this.major }}. {{this.university}} [{{this.period}}]
+          {{/each}}
+        </ul>
     </div>
 
     <h2 class="mb-4">Additional Experience</h2>
@@ -125,6 +133,61 @@
         </div>
     </div>
     {{/each}}
+    
+    {{#if release}}
+    <h2>Release</h2>
+    <ul>
+        {{#each release}}
+        <li><i class="fab {{this.icon}}"></i>
+        [{{this.type}}]
+        {{#if this.url}}
+            <a href="{{this.url}}">
+        {{/if}}
+            {{this.title}}</a> - {{this.date}}
+        </li>
+        {{/each}}
+    </ul>
+    {{/if}}
+
+    <h2>Certifications</h2>
+    <ul>
+       {{#each certifications}}
+       <li><i class="fab {{this.icon}}"></i> 
+        {{#if this.url}} 
+	    <a href="{{this.url}}">
+        {{/if}}
+        {{this.title}}</a> - {{this.date}}
+       </li>
+       {{/each}}
+    </ul>
+
+    {{#if addExperience}}
+    <h2>Additional Experience</h2>
+    <ul>
+        {{#each addExperience}}
+        <li><i class="fab {{this.icon}}"></i>
+            [{{this.type}}]
+            {{#if this.url}}
+                <a href="{{this.url}}">
+            {{/if}}
+            {{this.title}}</a> - {{this.date}}
+        </li>
+        {{/each}}
+    </ul>
+    {{/if}}
+    {{#if award}}
+    <h2>Award</h2>
+    <ul>
+        {{#each award}}
+        <li><i class="fab {{this.icon}}"></i>
+        {{#if this.url}}
+            <a href="{{this.url}}">
+        {{/if}}
+        {{this.title}}</a> - {{this.date}}
+        </li>
+        {{/each}}
+    </ul>
+    {{/if}}
 </div>
 </body>
 </html>
