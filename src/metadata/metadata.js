@@ -1,7 +1,7 @@
 module.exports = {
   name: '하지양 | HAJI',
 
-  eng_name: 'haji-lyang',
+  eng_name: 'ha ji-lyang',
   title: '- Data Platform & Machine Learning',
   lang:'kor',
   facts: {
