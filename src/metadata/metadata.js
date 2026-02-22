@@ -14,6 +14,10 @@ module.exports = {
   },
   skills: [
     ['python', 100],
+    ['pytorch', 70],
+    ['ML', 70],
+    ['Ai', 40],
+    
     ['Javascript', 80],
     ['ElasticSearch', 100],
     ['AWS', 60],
@@ -44,19 +48,11 @@ module.exports = {
       period: 'Sep 2022 - Present',
       contents: `자체 소프트웨어 개발 및 외주`,
       detail: [
+        'LG전자-외주업체(와이드티앤에스) - Thinq 개인화 서비스 데이터 책임 연구원, LG전자 개인화서비스팀 데이터 파이프라인 구축 및 관리',
         'LG - 보안 분석 체계 고도화 및 데이터 마이그레이션 with ElasticSearch 1.4',
         '경남대 - react hospital dashboard 구현',
         '클라비 - 빅데이터 플랫폼 재구축 및 개발 DBA',
         '사업 - 하우 유어 비자 (외국인 커뮤니티 및 취업정보 사이트 개발)'
-      ],
-    },
-    {
-      company: 'LG전자-외주업체(와이드티앤에스)',
-      location: 'Seoul',
-      period: 'Aug 2024 - Present',
-      contents: `Thinq 개인화 서비스 데이터 책임 연구원`,
-      detail: [
-        'LG전자 개인화서비스팀 데이터 파이프라인 구축 및 관리',
       ],
     },
     {
@@ -68,18 +64,6 @@ module.exports = {
         '컴퓨터 소프트웨어 개발 강의',
         'C#을 활용한 windows AI 서비스 개발 과목 강의',
         'JAVA 전자정부 프레임워크 기반 프로젝트 개발 강의',
-      ],
-    },
-    {
-      company: 'Korea Data Space',
-      location: 'Gangnam',
-      title: 'Data Enginner',
-      period: 'Jun 2022 - Sep 2022',
-      skills: ['ElasticSearch', 'pyflink', 'GCP'],
-      contents: `vision을 활용한 공간 정보 AI 연구소`,
-      detail: [
-        'ElasticSearch를 활용한 대시보드 개편',
-        'pyflink data pipeline 구축'
       ],
     },
     {
