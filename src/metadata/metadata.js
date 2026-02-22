@@ -56,6 +56,15 @@ module.exports = {
       ],
     },
     {
+      company: '아이펠 - 모두의 연구소',
+      location: 'Gangnam',
+      period: 'Dec 2025 - Present',
+      contents: `그루(학생)`,
+      detail: [
+        '파이토치 트랜스포머를 활용한 자연어 처리와 컴퓨터 비전 심층 학습',
+      ],
+    },
+    {
       company: '한국폴리텍VII대학',
       location: 'Changwon, Gyeongnam',
       period: 'mar 2024 - Present',
