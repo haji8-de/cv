@@ -43,7 +43,7 @@ module.exports = {
   ],
   memo:[
      
-        `Data Platform Engineer / Machine Learning Engineer / Ai Resercher
+        `Data Platform Engineer / Machine Learning Engineer / Ai Resercher </br>
         Former AWS Summit Online Korea 2021 Speaker
         대규모의 데이터를 하둡,카프카,하이브,엘라스틱서치를 활용하여 운영한 경험이 있습니다.
         쇼핑몰의 검색 시스템을 엘라스틱 서치로 개편하고 동의어를 처리하고
