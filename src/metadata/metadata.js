@@ -73,7 +73,7 @@ module.exports = {
       detail: [
         '파이토치 트랜스포머를 활용한 자연어 처리와 컴퓨터 비전 심층 학습',
         '2026년 05월 ~ 2026년 06월 : AI 팩트체킹 에이전트 "진짜가" — 뉴스 수치 주장을 KOSIS 공식 통계와 자동 대조 검증하는 멀티스텝 에이전트. Anthropic SDK·FastAPI·Prompt Caching 활용, 팀 리드로 아키텍처 설계·웹 풀스택 서버(백/프론트) 개발·성능 평가 총괄. (진행 중)'
-        '2026년 03월 ~ 2026년 04월 : Agentic RAG 챗봇 "현차야 알려줘" — 테스트 웹 사이트 (python) 구현, IONIQ 6 매뉴얼 기반 Query Rewrite-Router-Retrieval-Reranker-Critic-Generation 파이프라인 구현 및 RAGAS 정량 평가 담당'
+        '2026년 03월 ~ 2026년 04월 : Agentic RAG 챗봇 "현차야 알려줘" — 테스트 웹 사이트 (python) 구현, IONIQ 6 매뉴얼 기반 Query Rewrite, Router, Retrieval, Reranker, Critic, Generation 파이프라인 구현 및 RAGAS 정량 평가 담당'
       ],
     },
     {
