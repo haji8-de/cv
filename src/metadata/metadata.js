@@ -2,7 +2,7 @@ module.exports = {
   name: '하지양 | HAJI',
 
   eng_name: 'ha ji-lyang',
-  title: '- Data Platform & Machine Learning',
+  title: '- Data Engineer, Ai Resercher',
   lang:'kor',
   facts: {
     Residence: 'Seoul, South Korea',
