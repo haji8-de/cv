@@ -26,7 +26,7 @@ module.exports = {
     ['flask', 60],
     ['React', 30],
     ['graphql', 60],
-    ['GCP', 30],
+    ['GCP', 50],
     ['Athena', 100],
     
     ['Hadoop', 50],
@@ -58,11 +58,11 @@ module.exports = {
       period: 'Sep 2022 - Present',
       contents: `자체 소프트웨어 개발 및 외주`,
       detail: [
-        '2024년 07월 ~ 2025년 4월 : (마곡) LG전자-외주업체(와이드티앤에스) - Thinq 개인화 서비스 데이터 책임 연구원, LG전자 개인화서비스팀 데이터 파이프라인 구축 및 관리',
-        '2024년 05월 ~ 2024년 7월 : (문정) 클라비 - 빅데이터 플랫폼 재구축 및 개발 DBA',
-        '2023년 02월 ~ 2023년 5월 : (여의도) LG - 보안 분석 체계 고도화 및 데이터 마이그레이션 with ElasticSearch 1.4',
-        '2023년 02월 ~ 2023년 10월 : (외주) 경남대 - react hospital dashboard 구현',
-        '사업 - 하우 유어 비자 (외국인 커뮤니티 및 취업정보 사이트 개발)'
+        '2024년 07월 ~ 2025년 4월 : (마곡) LG전자-외주업체(와이드티앤에스) - Thinq 개인화 서비스 데이터 책임 연구원, LG전자 개인화서비스팀 데이터 파이프라인(airflow를 메인으로 하는 파이프라인) 구축 및 관리, MS Azure Fabric 개요 학습',
+        '2024년 05월 ~ 2024년 7월 : (문정) 클라비 - 빅데이터 플랫폼 재구축 및 개발 DBA (airflow 를 활용하여 기존 DB 정보를 새로운 DB 설계에 맞춰 마이그레이션) ',
+        '2023년 02월 ~ 2023년 5월 : (여의도) LG - 보안 분석 체계 고도화 및 데이터 마이그레이션(ElasticSearch 1.4 에서 데이터를 추출해 최신 ElasticSearch에 넣는 작업), airflow 및 python 활용',
+        '2023년 02월 ~ 2023년 10월 : (외주) 경남대 - react hospital dashboard 구현(풀스텍, 전체 작업 진행)',
+        '사업 - https://thehaji.co (외국인 커뮤니티 및 취업정보 사이트, 한국어 학습기 개발)'
       ],
     },
     {
@@ -98,7 +98,8 @@ module.exports = {
       detail: [
         'AI 학습을 위한 데이터 라벨링, 검증 백오피스 개발',
         'image type 판별/ background 제거 모델 고도화',
-        'Fashion item attribute classification model training image increasing for improve model performance'
+        'Fashion item attribute classification model training image increasing for improve model performance',
+        'airdlow를 활용한 데이터 파이프라인 구축(크롤링 및 라벨링, ai 학습 데이터 전달)'
       ],
     },
     {
@@ -146,6 +147,11 @@ module.exports = {
   ],
   education:[
     {
+      period: 'Dec 2025 - June 2026',
+      university: '아이펠 - 모두의 연구소',
+      major:'Ai Resercher'
+    },
+    {
       period:'2010 - 2014',
       university:'Kumoh National Institute of Technology',
       major:'Computer Software Engineering'
@@ -153,31 +159,55 @@ module.exports = {
   ],
   release:[
     {
-      type:'publications',
+      type:'상표',
+      title:'셀비체(스페인 전체요리)',
+      url:'https://doi.org/10.8080/4020240026485',
+      date:'22025.09.08',
+    },
+    {
+      type:'상표',
+      title:'더하지',
+      url:'https://doi.org/10.8080/4020230111086',
+      date:'2025.05.26',
+    },
+    {
+      type:'thesis/ 논문',
+      title:'대조학습 기반 하이브리드 문항 유사도 추천 모델(Hybrid Question Recommendation Model based on Contractive Learning)',
+      url:'https://www.theieie.org',
+      date:'2026.06.24(예정)',
+    },
+    {
+      type:'patent/ 특허',
+      title:'인증 마크를 이용한 외국인 채용 보조 시스템(FOREIGNER RECRUITMENT SYSTEM THROUGH CERTIFICATION MARK ISSURANCE)',
+      url:'https://doi.org/10.8080/1020230112123',
+      date:'2025.08.25',
+    },
+    {
+      type:'publications/ 발표',
       title:'The HAJI : a language learning and career development space',
       url:'https://tcs-asia.org/en/programs/program.php?forums=F1560230836&year=2023',
       date:'May 2023, Trilateral Entrepreneurs Forum - 2023'
     },
     {
-      type:'publications',
+      type:'publications/ 발표',
       title:'가심비 AWS ElasticSearch Architecture',
       url:'https://medium.com/@hajix/elasticsearch-8-2-%EC%84%A4%EC%B9%98-1c4149b92b3b',
       date:'Jul 2022, aws.architecture.meetup.34회'
     },
     {
-      type:'publications',
+      type:'publications/ 발표',
       title:'커머스 스타트업의 효율적인 데이터 분석 플랫폼 구축기',
       url:'https://www.youtube.com/watch?v=j7O9RZDsacY',
       date:'May 2021, AWS Summit Online Korea 2021'
     },
     {
-      type:'patent',
+      type:'patent/ 특허',
       title:'Resource information management and data storage system through the management of the resource template',
       url:'http://kpat.kipris.or.kr/kpat/biblioa.do?method=biblioFrame&start=biblio&searchFg=N',
       date:'Dec 2015',
     },
     {
-      type:'thesis',
+      type:'thesis/ 논문',
       title:'PC Virtual I/O Device Development using Android Smartphone',
       url:'https://www.eiric.or.kr/literature/ser_view.php?SnxGubun=INKO&mode=total&searchCate=literature&gu=INME001E9&cmd=qryview&SnxIndxNum=152361&rownum=&totalCnt=1&rownum=1&q1_t=7JWI65Oc66Gc7J2065OcIOyKpOuniO2KuO2PsOydhCDsnbTsmqntlZwgUEMg6rCA7IOBIOyehey2nOugpSDs',
       date:'Jan 2013',
@@ -188,13 +218,13 @@ module.exports = {
       icon:'',
       url:'https://youth.posco.com/posco/edu/index.php?mod=incubator&pag=incubator01',
       title:'POSCO Startup Incubating School',
-      major:'Apr 2023'
+      major:'March 2023 - Apr 2023'
     },
     {
       icon:'',
       url:'https://coursera.org/share/a3eec63e1a35bcc206a98a58567e0b2d',
       title:'Coursera ML course',
-      date:'Oct 2021'
+      date:' June 2021 - Oct 2021'
     },
     {
       icon:'',
