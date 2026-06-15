@@ -58,31 +58,34 @@ module.exports = {
       period: 'Sep 2022 - Present',
       contents: `자체 소프트웨어 개발 및 외주`,
       detail: [
-        'LG전자-외주업체(와이드티앤에스) - Thinq 개인화 서비스 데이터 책임 연구원, LG전자 개인화서비스팀 데이터 파이프라인 구축 및 관리',
-        'LG - 보안 분석 체계 고도화 및 데이터 마이그레이션 with ElasticSearch 1.4',
-        '경남대 - react hospital dashboard 구현',
-        '클라비 - 빅데이터 플랫폼 재구축 및 개발 DBA',
+        '2024년 07월 ~ 2025년 4월 : (마곡) LG전자-외주업체(와이드티앤에스) - Thinq 개인화 서비스 데이터 책임 연구원, LG전자 개인화서비스팀 데이터 파이프라인 구축 및 관리',
+        '2024년 05월 ~ 2024년 7월 : (문정) 클라비 - 빅데이터 플랫폼 재구축 및 개발 DBA',
+        '2023년 02월 ~ 2023년 5월 : (여의도) LG - 보안 분석 체계 고도화 및 데이터 마이그레이션 with ElasticSearch 1.4',
+        '2023년 02월 ~ 2023년 10월 : (외주) 경남대 - react hospital dashboard 구현',
         '사업 - 하우 유어 비자 (외국인 커뮤니티 및 취업정보 사이트 개발)'
       ],
     },
     {
       company: '아이펠 - 모두의 연구소',
-      location: 'Gangnam',
-      period: 'Dec 2025 - Present',
+      location: 'Gangnam(원격수업)',
+      period: 'Dec 2025 - June 2026',
       contents: `그루(학생)`,
       detail: [
         '파이토치 트랜스포머를 활용한 자연어 처리와 컴퓨터 비전 심층 학습',
+        '2026년 05월 ~ 2026년 06월 : AI 팩트체킹 에이전트 "진짜가" — 뉴스 수치 주장을 KOSIS 공식 통계와 자동 대조 검증하는 멀티스텝 에이전트. Anthropic SDK·FastAPI·Prompt Caching 활용, 팀 리드로 아키텍처 설계·웹 풀스택 서버(백/프론트) 개발·성능 평가 총괄. (진행 중)'
+        '2026년 03월 ~ 2026년 04월 : Agentic RAG 챗봇 "현차야 알려줘" — 테스트 웹 사이트 (python) 구현, IONIQ 6 매뉴얼 기반 Query Rewrite→Router→Retrieval→Reranker→Critic→Generation 파이프라인 구현 및 RAGAS 정량 평가 담당'
       ],
     },
     {
       company: '한국폴리텍VII대학',
       location: 'Changwon, Gyeongnam',
-      period: 'mar 2024 - Present',
+      period: 'mar 2024 - 2026년 1학기(진행중)',
       contents: `시간 강사`,
       detail: [
         '컴퓨터 소프트웨어 개발 강의',
         'C#을 활용한 windows AI 서비스 개발 과목 강의',
         'JAVA 전자정부 프레임워크 기반 프로젝트 개발 강의',
+        '메카트로닉스 학과의 python 기초 개발 강의',
       ],
     },
     {
