@@ -5,7 +5,7 @@ module.exports = {
   title: '- Data Engineer, Ai Resercher',
   lang:'kor',
   facts: {
-    Residence: 'Seoul, South Korea',
+    Residence: '서울 양재, South Korea',
     LinkedIn: '<a href="http://www.linkedin.com/in/haji8"><i class="fab fa-linkedin fact-icon"></i> haji8 </a>',
     GitHub: '<a href="https://github.com/haji8-de"><i class="fab fa-github fact-icon"></i> haji8-de </a>',
     Email: '<a href="mailto:gwd7454@gmail.com">gwd7454@gmail.com</a>',
@@ -17,8 +17,10 @@ module.exports = {
     ['pytorch', 70],
     ['ML', 70],
     ['Ai', 40],
+    ['LangGraph', 40], 
+    ['LangChain', 40],
     
-    ['Javascript', 80],
+    ['Javascript', 60],
     ['ElasticSearch', 100],
     ['AWS', 60],
     ['Firehose', 100],
@@ -26,7 +28,7 @@ module.exports = {
     ['flask', 60],
     ['React', 30],
     ['graphql', 60],
-    ['GCP', 50],
+    ['GCP', 75],
     ['Athena', 100],
     
     ['Hadoop', 50],
@@ -36,7 +38,7 @@ module.exports = {
     ['postgrsql', 50],
     
     ['Kafka', 60],
-    ['airflow', 60],
+    ['airflow', 95],
     ['pyflink', 60]
     
     
@@ -50,21 +52,28 @@ module.exports = {
         `이에 대한 로그를 AWS 의 데이터 웨어하우스를 구축하여 처리한 경험이 있습니다. `,
         `인공지능 모델의 성능 향상을 위해 데이터 라벨링 시스템과 모델의 `,
         `성능 평가 시스템을 구축하여 인공지능의 성능을 향상시키고 있습니다.`,
+        '국비지원 교육으로 ai 리서처 과정을 2026년 1학기에 수료하였으며,',
+        '아직은 ai가 어려운 학생입니다. 시간적 여유만 가능하다면 인공지능 석박사 코스를 졸업하고 싶습니다.'
   ],
   positions: [
     {
       company: 'The HAJI',
-      location: 'Gyeongsangdo',
+      location: 'Gyeongsangdo, 경상대학교 창업 보육센터 입주(2023~현재)',
       period: 'Sep 2022 - Present',
       contents: `자체 소프트웨어 개발 및 외주`,
       detail: [
         '2026년 07월 ~ 2026년 11월 : (강남) 삼성전자 GMO 개발 - 외주업체(아이티센) -',
+        '2025년 하반기 : (주)엔스퀘어- UI·UX 컨설팅',
         '2024년 07월 ~ 2025년 4월 : (마곡) LG전자-외주업체(와이드티앤에스) - Thinq 개인화 서비스 데이터 책임 연구원, LG전자 개인화서비스팀 데이터 파이프라인(airflow를 메인으로 하는 파이프라인) 구축 및 관리, MS Azure Fabric 개요 학습',
         '2024년 05월 ~ 2024년 7월 : (문정) 클라비 - 빅데이터 플랫폼 재구축 및 개발 DBA (airflow 를 활용하여 기존 DB 정보를 새로운 DB 설계에 맞춰 마이그레이션) ',
         '2023년 02월 ~ 2023년 5월 : (여의도) LG - 보안 분석 체계 고도화 및 데이터 마이그레이션(ElasticSearch 1.4 에서 데이터를 추출해 최신 ElasticSearch에 넣는 작업), airflow 및 python 활용',
         '2023년 02월 ~ 2023년 10월 : (외주) 경남대 - react hospital dashboard 구현(풀스텍, 전체 작업 진행)',
         '사업 - https://thehaji.co (외국인 커뮤니티 및 취업정보 사이트, 한국어 학습기 개발)',
-        '특허 및 논문, 서비스 개발 (상세내용 하단 release 참고)
+        '특허 및 논문, 서비스 개발 (상세내용 하단 release 참고)',
+        '경남진주강소특구 이노폴리스 사업 2024, 2025 수료',
+        '경남진주강소특구 이노테크 사업 2026 진행중',
+        '경남 창업기업 스케일업 특허출원캠프 2026 참여',
+        '2023 IP디딤돌프로그램 수료'
       ],
     },
     {
@@ -74,14 +83,15 @@ module.exports = {
       contents: `그루(학생)`,
       detail: [
         '파이토치 트랜스포머를 활용한 자연어 처리와 컴퓨터 비전 심층 학습',
+        'ai 학습 결과 repo : https://github.com/haji8-de/AIFFEL_quest_rs',
         '2026년 05월 ~ 2026년 06월 : AI 팩트체킹 에이전트 "진짜가" - 뉴스 수치 주장을 KOSIS 공식 통계와 자동 대조 검증하는 멀티스텝 에이전트. Anthropic SDK·FastAPI·Prompt Caching 활용, 팀 리드로 아키텍처 설계·웹 풀스택 서버(백/프론트) 개발·성능 평가 총괄.',
         '2026년 03월 ~ 2026년 04월 : Agentic RAG 챗봇 "현차야 알려줘" - 테스트 웹 사이트 (python) 구현, IONIQ 6 매뉴얼 기반 RAG 구현 및 RAGAS 정량 평가 담당, 매뉴얼 기반 RAG data set 생성'
       ],
     },
     {
-      company: '한국폴리텍VII대학',
+      company: '한국폴리텍VII대학 - 하이테크 과정',
       location: 'Changwon, Gyeongnam',
-      period: 'mar 2024 - 2026년 1학기(진행중)',
+      period: '2024 1학기 - 2026년 1학기',
       contents: `시간 강사`,
       detail: [
         '컴퓨터 소프트웨어 개발 강의',
@@ -168,6 +178,13 @@ module.exports = {
       period: 'Dec 2025 - June 2026',
       university: '아이펠 - 모두의 연구소',
       major:'Ai Resercher'
+    },
+    {
+      period:'March 2023 - Apr 2023',
+      major:'청년 창업가',
+      url:'https://youth.posco.com/posco/edu/index.php?mod=incubator&pag=incubator01',
+      url:'https://youtu.be/OxHnBoZbqmg',
+      university:'POSCO Startup Incubating School',
     },
     {
       period:'2010 - 2014',
@@ -265,12 +282,6 @@ module.exports = {
   certifications:[
     {
       icon:'',
-      url:'https://youth.posco.com/posco/edu/index.php?mod=incubator&pag=incubator01',
-      title:'POSCO Startup Incubating School',
-      major:'March 2023 - Apr 2023'
-    },
-    {
-      icon:'',
       url:'https://coursera.org/share/a3eec63e1a35bcc206a98a58567e0b2d',
       title:'Coursera ML course',
       date:' June 2021 - Oct 2021'
@@ -301,6 +312,12 @@ module.exports = {
     },
   ],
   addExperience:[
+    {
+      type: 'activity',
+      title: '경상남도 진주시 청년 네트워크 위원',
+      url: '',
+      date: '2024년 창업분과 위원 - 2026년 창업분과 위원',
+    },
     {
       type: 'theater',
       title: '극단 빈공간, 한 여름밤의 꿈, 스누그역',
