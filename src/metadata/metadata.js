@@ -177,17 +177,19 @@ module.exports = {
     {
       period: 'Dec 2025 - June 2026',
       university: '아이펠 - 모두의 연구소',
+      url:'https://aiffel.io',
       major:'Ai Resercher'
     },
     {
       period:'March 2023 - Apr 2023',
       major:'청년 창업가',
-      url:'https://youth.posco.com/posco/edu/index.php?mod=incubator&pag=incubator01',
+      url2:'https://youth.posco.com/posco/edu/index.php?mod=incubator&pag=incubator01',
       url:'https://youtu.be/OxHnBoZbqmg',
       university:'POSCO Startup Incubating School',
     },
     {
       period:'2010 - 2014',
+      url:'https://www.kumoh.ac.kr',
       university:'Kumoh National Institute of Technology',
       major:'Computer Software Engineering'
     }
