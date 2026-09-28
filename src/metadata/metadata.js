@@ -63,7 +63,8 @@ module.exports = {
         '2024년 05월 ~ 2024년 7월 : (문정) 클라비 - 빅데이터 플랫폼 재구축 및 개발 DBA (airflow 를 활용하여 기존 DB 정보를 새로운 DB 설계에 맞춰 마이그레이션) ',
         '2023년 02월 ~ 2023년 5월 : (여의도) LG - 보안 분석 체계 고도화 및 데이터 마이그레이션(ElasticSearch 1.4 에서 데이터를 추출해 최신 ElasticSearch에 넣는 작업), airflow 및 python 활용',
         '2023년 02월 ~ 2023년 10월 : (외주) 경남대 - react hospital dashboard 구현(풀스텍, 전체 작업 진행)',
-        '사업 - https://thehaji.co (외국인 커뮤니티 및 취업정보 사이트, 한국어 학습기 개발)'
+        '사업 - https://thehaji.co (외국인 커뮤니티 및 취업정보 사이트, 한국어 학습기 개발)',
+        '특허 및 논문, 서비스 개발 (상세내용 하단 release 참고)
       ],
     },
     {
@@ -117,6 +118,22 @@ module.exports = {
       ],
     },
     {
+      company: '필리핀 어학연수',
+      location: 'Philippines',
+      title: '',
+      period: '2019.05.18 - 2020.03.28',
+      skills: ['English', 'Scuba diving'],
+      contents: `뉴질랜드 워킹홀리데이를 위한 어학연수`,
+      detail: [
+        '어학연수, 어학원 3개월',
+        '필리핀 전역을 떠돌며 스쿠버 다이빙 생활 - dive master',
+        '코로나로 인한 뉴질랜드 워홀 포기 및 한국 입국',
+        '두테르테의 강력한 본국 송환 권고로 한국 입국(비행기 값 free)',
+        '뉴질랜드 워홀 비자 획득 - 2019년 5월 24일 ~ 2023년 1월 31일',
+        '코로나로 인한 뉴질랜드 워홀 비자 연장 및 워홀 포기'
+      ],
+    },
+    {
       company: 'NAVER Corp',
       location: 'Bundang',
       title: 'Data Engineer',
@@ -161,21 +178,34 @@ module.exports = {
   release:[
     {
       type:'thesis/ 논문',
-      title:'KoStatCheck: 뉴스 기사 수치 팩트체크를 위한 한국어 공식 통계 기반 벤치마크 데이터셋',
-      url:'-',
-      date:'작성중 (20026.06.15)',
+      title:'Missingness-Driven Interactive Resume Generation: An Agentic Application with a Synthetic Korean Benchmark(결측치 기반 상호작용형 이력서 생성: 합성 한국어 벤치마크를 갖춘 에이전트 응용
+)',
+      url:'https://www.icce-asia2026.org/2026/',
+      date:'ICCE-ASIA 2026 논문 발표 예정 (10.28-30)',
+    },
+    {
+      type:'patent/ 특허',
+      title:'이력 결측치 탐색 및 데이터 통합 기반의 상호작용형 이력서 자동 생성 시스템 및 그 방법',
+      url:'',
+      date:'출원, 우선 심사 청구 전 (2026.09.28)',
     },
     {
       type:'thesis/ 논문',
-      title:'한국어 뉴스 수치 주장 검증을 위한 LLM 기반 자동 추출 베이스라인',
-      url:'-',
-      date:'작성중 (20026.06.15)',
+      title:'KoStatCheck: 뉴스 기사 수치 팩트체크를 위한 한국어 공식 통계 기반 벤치마크 데이터셋',
+      url:'https://kiice.org/conference/2026kiice',
+      date:'KiiCE 한국정보통신학회 2026 추계종합학술대회 논문 발표 예정(10.22-24)',
+    },
+    {
+      type:'thesis/ 논문',
+      title:'Minimizing Human Review Cost in Korean Statistical Fact-Checking via a Cheap Heterogeneous LLM Ensemble(값싼 이기종 LLM 앙상블을 통한 한국어 통계 팩트체킹의 수작업 검토 비용 최소화)',
+      url:'https://www.icce-asia2026.org/2026/',
+      date:'ICCE-ASIA 2026 논문 발표 예정 (10.28-30)',
     },
     {
       type:'patent/ 특허',
       title:'하이브리드 문항 유사도 분석을 이용한 맞춤형 재학습 문항 추천 시스템',
-      url:'-',
-      date:'우선심사 청구 중 (2026.06.15)',
+      url:'출원번호 10-2026-0055326',
+      date:'우선심사 청구 중 - 의견제출중 (2026.09.03)',
     },
     {
       type:'상표',
