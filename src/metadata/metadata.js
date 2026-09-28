@@ -315,7 +315,7 @@ module.exports = {
     {
       type: 'activity',
       title: '경상남도 진주시 청년 네트워크 위원',
-      url: '',
+      url: 'https://young.jinju.go.kr/young/board/ynetwork/read/335',
       date: '2024년 창업분과 위원 - 2026년 창업분과 위원',
     },
     {
