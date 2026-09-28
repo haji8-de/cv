@@ -113,7 +113,9 @@
         <h2 class="mb-4">Education</h2>
         <ul>
           {{#each education}}
-            <i class="fab {{this.icon}}"></i>
+            {{#if this.icon}}
+                <i class="fab {{this.icon}}"></i>
+            {{/if}}
             {{ this.major }}. {{this.university}} [{{this.period}}]
           {{/each}}
         </ul>
