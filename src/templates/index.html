@@ -116,7 +116,13 @@
             {{#if this.icon}}
                 <i class="fab {{this.icon}}"></i>
             {{/if}}
-            {{ this.major }}. {{this.university}} [{{this.period}}]
+            {{ this.major }}. {{#if this.url}}
+                <a href="{{this.url}}">
+            {{/if}}
+                {{this.university}}</a>
+            [{{this.period}}]
+            
+            
           {{/each}}
         </ul>
     </div>
