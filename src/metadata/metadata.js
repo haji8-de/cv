@@ -60,7 +60,7 @@ module.exports = {
       company: 'The HAJI',
       location: 'Gyeongsangdo, 경상대학교 창업 보육센터 입주(2023~현재)',
       period: 'Sep 2022 - Present',
-      contents: `자체 소프트웨어 개발 및 외주`,
+      contents: `자체 소프트웨어 개발 및 외주, 직업정보제공사업, 정보통신업`,
       detail: [
         '2026년 07월 ~ 2026년 11월 : (강남) 삼성전자 GMO 개발 - 외주업체(아이티센) -',
         '2025년 하반기 : (주)엔스퀘어- UI·UX 컨설팅',
@@ -317,6 +317,12 @@ module.exports = {
       title: '경상남도 진주시 청년 네트워크 위원',
       url: 'https://young.jinju.go.kr/young/board/ynetwork/read/335',
       date: '2024년 창업분과 위원 - 2026년 창업분과 위원',
+    },
+    {
+      type: 'activity',
+      title: '2023 인천펜타포트 펜타 락커즈',
+      url: 'https://www.instagram.com/p/CwQDbc7vFaz',
+      date: '2023년 08월 04일 ~ 08월 06일',
     },
     {
       type: 'theater',
