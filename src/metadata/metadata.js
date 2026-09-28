@@ -195,8 +195,7 @@ module.exports = {
   release:[
     {
       type:'thesis/ 논문',
-      title:'Missingness-Driven Interactive Resume Generation: An Agentic Application with a Synthetic Korean Benchmark(결측치 기반 상호작용형 이력서 생성: 합성 한국어 벤치마크를 갖춘 에이전트 응용
-)',
+      title:'Missingness-Driven Interactive Resume Generation: An Agentic Application with a Synthetic Korean Benchmark(결측치 기반 상호작용형 이력서 생성: 합성 한국어 벤치마크를 갖춘 에이전트 응용)',
       url:'https://www.icce-asia2026.org/2026/',
       date:'ICCE-ASIA 2026 논문 발표 예정 (10.28-30)',
     },
